@@ -16,6 +16,37 @@ body{
   width: 100%;
 }
 
+/* Start Header */
+
+.head {
+  background-color: #333;
+  margin-top:0;
+  min-height:50px;
+  display: flex;
+  padding:10px;
+  border-bottom: 2px solid #381513;
+  align-items: center;
+}
+
+.head nav h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color:#381513;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.head nav h3:hover {
+  transform: translate(20px, 10px) scale(1.1, 1.1);
+}
+
+.head nav h3 span {
+  color:black;
+}
+
+/* End Header */
+
+/* Start Container */
 .container{
   max-width: 800px;
   width:700px;
@@ -61,6 +92,9 @@ body{
   background-color: var(--secondary-color);
 }
 
+/* End Container */
+
+/* Start Result for JavaScript */
 .info {
   display: grid;
   grid-template-columns: 4fr 9fr;
@@ -142,6 +176,7 @@ p{
 .msg{
   text-align: center;
   color:var(--main-color);
+  margin-top:30px;
 }
 
 @media screen and (max-width:700px) {
@@ -159,3 +194,5 @@ p{
   }
   
 }
+/* End Result for JavaScript */
+
